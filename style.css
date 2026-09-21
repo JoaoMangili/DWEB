@@ -1,0 +1,165 @@
+:root{
+    background-color: #faf9f9;
+    color: #000000;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* header / main / footer */
+    min-height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    min-height: calc(100vh - 40px);
+    box-sizing: border-box;
+}
+
+.header-1 {
+    background-color: #2623e423;
+    color: rgb(10, 10, 10);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px;
+}
+
+.types-of-news {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: #2623e423;
+    border-radius: 5px;
+    gap: 8px;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+    grid-template-areas:
+    'p'
+    's'
+    't'
+    'e'
+    'c'
+    'h'
+    'b'
+    'ed'
+}
+
+.lastest-news {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: #2623e423;
+    text-align: center;
+    border-radius: 5px;
+    gap: 8px;
+    width: auto;
+    height: auto;
+  
+
+    grid-template-areas:
+    'n1'
+    'n2'
+    'n3'
+    'n4'
+    'n5'
+    'n6'
+    'n7'
+    'n8'
+}
+
+.box{
+    background-color: #23e42a3d;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    width: auto;
+}
+
+.p {
+    grid-area: p;
+}
+
+.s {
+    grid-area: s;
+ 
+}
+
+.t {
+    grid-area: t;
+ 
+}
+
+.e {
+    grid-area: e;
+}
+
+.c {
+    grid-area: c;
+}
+
+.h {
+    grid-area: h;
+}
+
+.b {
+    grid-area: b;
+}
+
+
+
+.n1 {
+    grid-area: n1;
+}
+
+.n2 {
+    grid-area: n2;
+ 
+}
+
+.n3 {
+    grid-area: n3;
+ 
+}
+
+.n4 {
+    grid-area: n4;
+}
+
+.n5 {
+    grid-area: n5;
+}
+
+.n6 {
+    grid-area: n6;
+ 
+}
+
+.n7 {
+    grid-area: n7;
+ 
+}
+
+footer {
+    background-color: #2623e423;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
